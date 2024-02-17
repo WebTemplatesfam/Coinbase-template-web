@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <Nav state={isNavOpen ? 1 : 0} className="flex j-between a-center">
       <div className="brand">
-        <h2>Coinbase</h2>
+        <h2>Dashboard</h2>
       </div>
       <div className="toggle">
         {isNavOpen ? (
